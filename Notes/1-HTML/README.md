@@ -55,4 +55,17 @@ A complete semantic elements representation in html
 </html>
 ```
 
-<header>, <nav>, <main>, <section>, <article>, <aside>, and <footer>
+Web Workers: Ability to run JavaScript in background threads, improving performance for complex operations
+
+What WCAG guidelines do you follow ? WCAG 2.1 Level AA
+
+- use proper semantic html elements
+- use proper heading structures
+- use proper colour contrast
+- add keyboard interactions for buttons
+- add focus indicators
+- add alt text for all images
+- use aria labels where semantic elements cant be used
+- use error message announcement associated with actions
+- test app with NVDA,JAWS,Voiceover
+- design for different viewports
