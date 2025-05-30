@@ -1,0 +1,196 @@
+body {
+  margin: 0px;
+  background-color: lightgray;
+}
+html {
+  height: 100%;
+}
+
+/********************************************************************************************************************/
+/* CSS Psuedo classess*/
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+li:nth-child(odd) {
+  /* Selects every odd element */
+  background-color: lightblue;
+}
+li:nth-child(even) {
+  /* Selects every even element */
+  background-color: lightgreen;
+}
+li:nth-child(2) {
+  /* Selects the second element */
+  background-color: lightcoral;
+}
+li:nth-child(3n) {
+  /* Selects every third element */
+  background-color: lightgrey;
+}
+li:nth-child(5n + 1) {
+  /* Selects every fifth element starting from the first */
+  background-color: cyan;
+}
+li:nth-last-child(2) {
+  /* Selects the second last element of its type */
+  background-color: greenyellow;
+}
+li:nth-of-type(2) {
+  /* Selects the second element of its type */
+  background-color: tomato;
+}
+
+.selectors p:nth-of-type(2) {
+  /* Selects the second paragraph of its type */
+  background-color: blueviolet;
+}
+
+.selectors p:nth-child(2) {
+  /* Selects the second child of the parent */
+  background-color: orange;
+}
+
+.selectors {
+  p:nth-child(4) {
+    /* Selects the fourth child of the parent */
+    background-color: green;
+  }
+}
+
+/********************************************************************************************************************/
+/* CSS for text shadows */
+.shadows p {
+  font-size: 20px;
+  text-shadow: 0px 2px 4px yellow, 0px 4px 8px orange, 0px 6px 12px red;
+}
+.box {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/***********************************************************************************************************************/
+/* CSS for Transform */
+.transform {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  transform: rotate(45deg) translateX(50px);
+  transition: transform 0.5s ease-in-out;
+}
+.transform:hover {
+  transform: rotate(0deg) translateX(0px);
+}
+.matrix {
+  width: 200px;
+  height: 200px;
+  background-color: lightseagreen;
+  /* matrix(a, b, c, d, tx, ty)
+    a = scaleX, b = skewY, c = skewX, d = scaleY, tx = translateX, ty = translateY */
+  transform: matrix(1, 0.3, 0.2, 1, 30, 20);
+  transition: transform 0.5s;
+}
+.matrix:hover {
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+/********************************************************************************************************************/
+/* CSS for different positioning examples and box styles */
+#box1 {
+  border: 1px solid;
+  width: 500px;
+  height: 500px;
+  background-color: lightblue;
+  position: relative;
+  left: 50px;
+}
+#absolute {
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#sticky {
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+}
+#fixed {
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  background-color: lightpink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 250px;
+  left: 250px;
+}
+#relative {
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  background-color: lightyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
+#static {
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  background-color: lightcyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: static;
+}
+.one {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: lightskyblue;
+  margin: 20px;
+  padding: 20px;
+}
+.two {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  margin: 20px;
+  padding: 10px;
+}
