@@ -191,6 +191,46 @@ li:nth-of-type(2) {
   width: 100px;
   height: 100px;
   background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 20px;
   padding: 10px;
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height, but margin is not added*/
+}
+
+.three {
+  /* display: flex;
+  flex-direction: column; */
+  /* padding: 10px; */
+  border: 1px solid black;
+  background-color: linen;
+}
+
+/********************************************************************************************************************/
+/* Margin Collapse */
+/*
+  Margin collapse occurs when the vertical margins of adjacent block-level elements combine into a single margin.
+  Only the largest margin value is used, not the sum.
+  This typically happens between parent and first/last child, or between siblings.
+  Horizontal margins do not collapse.
+  Padding, borders, or inline content between elements prevent margin collapse.
+*/
+
+.four {
+  display: inline-block;
+  background-color: lightcoral;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.six {
+  background-color: lightseagreen;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
 }
