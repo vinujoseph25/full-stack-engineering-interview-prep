@@ -1,51 +1,59 @@
 # Senior Full-Stack Engineering Interview Preparation
 
-A structured interview-preparation knowledge base covering frontend, backend, architecture, cloud, testing, security, performance, and engineering leadership.
+> A structured technical knowledge base for senior and lead software engineering interviews.
 
-Built as a practical reference for senior and lead full-stack engineering interviews, with topic guides, working notes, examples, and architecture questions.
+This repository is a practical reference covering **frontend engineering, backend development, system design, cloud, testing, security, performance and engineering leadership**.
+
+It is designed around a simple principle: strong senior-level answers should demonstrate not only technical knowledge, but also **production judgement, trade-off analysis and experience-driven decision making**.
 
 ## What this repository covers
 
 | Area | Focus |
 | --- | --- |
-| HTML & Accessibility | Semantic HTML, WCAG, ARIA, forms, browser fundamentals |
-| CSS & Styling | Responsive design, layout systems, design systems, rendering |
+| HTML & Accessibility | Semantic HTML, WCAG, ARIA, forms and browser fundamentals |
+| CSS & Styling | Responsive design, layout systems, design systems and rendering |
 | JavaScript | Runtime behaviour, closures, async, modules, memory and performance |
 | TypeScript | Type modelling, generics, narrowing, strictness and migration |
 | React | Hooks, composition, state, rendering, performance, testing and accessibility |
-| Next.js | App Router, SSR/SSG/ISR, Server Components, caching and deployment |
+| Next.js | SSR/SSG/ISR, App Router, Server Components, caching and deployment |
 | Node.js & Backend | APIs, authentication, resilience, observability and scaling |
-| Databases & Data Modelling | Schema design, indexing, transactions, consistency and caching |
-| System Design & Architecture | Distributed systems, APIs, reliability, scalability and trade-offs |
+| Databases | Schema design, indexing, transactions, consistency and caching |
+| System Design | Distributed systems, APIs, scalability, reliability and trade-offs |
 | DevOps & CI/CD | Docker, pipelines, cloud, deployments and operational readiness |
-| Testing Strategies | Unit, integration, E2E, contract, performance and security testing |
-| Security | Threats, authentication, authorisation, secure APIs and browser security |
-| Performance Optimization | Measurement, bottleneck analysis, caching, frontend and backend tuning |
-| Team Leadership | Technical direction, mentoring, code review and conflict resolution |
-| Project Management | Planning, prioritisation, risk, scope and stakeholder management |
-| Behavioral Interviewing | Leadership stories, decisions, failures, influence and adaptability |
+| Testing | Unit, integration, E2E, contract, performance and security testing |
+| Security | Authentication, authorisation, secure APIs and browser security |
+| Performance | Measurement, bottleneck analysis, caching and application tuning |
+| Team Leadership | Technical direction, mentoring, code review and influence |
+| Project Management | Planning, prioritisation, risk, scope and stakeholders |
+| Behavioural Interviews | Leadership stories, decisions, failures and adaptability |
 
 ## Repository structure
 
-### Consolidated topic guides
+### Topic guides
 
-The numbered PDF guides provide focused revision material from foundational web topics through engineering leadership and behavioural interviews.
+The numbered guides provide focused revision material from foundational web technologies through architecture, engineering leadership and behavioural interviews.
 
 ### `Notes/`
 
-Practical notes, code examples and topic-specific exercises developed while preparing for interviews.
+Practical notes, code examples and topic-specific exercises.
 
 ### `docs/`
 
-Interview practice guidance and answer frameworks.
+Interview frameworks and preparation guidance.
 
-See [`docs/INTERVIEW_PREP.md`](docs/INTERVIEW_PREP.md) for the recommended preparation workflow and answer structures.
+See [`docs/INTERVIEW_PREP.md`](docs/INTERVIEW_PREP.md) for the recommended preparation workflow.
 
-## How to practise
+## How to use this repository
 
 ### Technical questions
 
-Do not memorise definitions. Explain the concept, show when you would use it, discuss alternatives, and call out the trade-offs.
+Do not memorise definitions. A strong answer should explain:
+
+1. What the concept is.
+2. When you would use it.
+3. Alternatives that could solve the same problem.
+4. The trade-offs involved.
+5. How it behaves in a production system.
 
 ### System design questions
 
@@ -59,13 +67,22 @@ Use:
 
 **Context → Problem → Decision → Trade-off → Outcome → Learning**
 
-Quantify impact whenever possible using metrics such as latency, throughput, availability, cost, delivery time, defect rate, adoption, or team productivity.
+Where possible, quantify outcomes using latency, throughput, availability, cost, delivery time, defect rate, adoption or productivity metrics.
 
-## Interview readiness
+## Senior engineering mindset
 
-The strongest answers combine technical depth with production judgement. Connect concepts to real systems you have designed, incidents you have resolved, teams you have led, and trade-offs you have made.
+The goal of preparation is not to produce rehearsed answers. It is to build the ability to reason clearly when requirements are incomplete, constraints conflict and multiple technically valid solutions exist.
 
-> This repository is a preparation reference—not a set of scripts to recite. Adapt the examples to your own experience.
+Strong senior-level responses connect technology to:
+
+- business outcomes
+- maintainability
+- reliability
+- security
+- performance
+- operational complexity
+- team capability
+- long-term cost
 
 ## Topics
 
@@ -81,10 +98,18 @@ The strongest answers combine technical depth with production judgement. Connect
 10. DevOps & CI/CD
 11. Testing Strategies
 12. Security
-13. Performance Optimization
+13. Performance Optimisation
 14. Team Leadership
 15. Project Management
-16. Behavioral Interviewing
+16. Behavioural Interviewing
+
+## Portfolio role
+
+This repository is a **supporting engineering knowledge base**, not a flagship application. It complements the implementation-focused projects in my portfolio by documenting the concepts, trade-offs and interview frameworks behind senior software engineering practice.
+
+## Disclaimer
+
+This repository is a personal study and interview-preparation resource. Examples should be adapted to the requirements and context of a real system rather than treated as universal prescriptions.
 
 ## License
 
