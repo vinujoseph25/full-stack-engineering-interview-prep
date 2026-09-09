@@ -1,4 +1,12 @@
 .DS_Store
-*-completed/
 *.swp
 *.tmp
+*.bak
+
+# Local editor and OS metadata
+.vscode/
+.idea/
+
+# Local exports / generated study artefacts
+*-completed/
+*.log
